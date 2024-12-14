@@ -6,12 +6,21 @@ CICD Badge: [![Build and Push Docker Image](https://github.com/nzarama-kouadio/r
 ## Overview
 This project is a Dockerized Hangman game implemented using Flask. It features a simple and interactive web interface for users to guess letters and solve words. The application is containerized for seamless deployment and includes a CI/CD pipeline for automated Docker image building and pushing.
 
-
 ## Features
 - Flask-based Hangman game with an intuitive UI.
 - Fully Dockerized for portability and ease of deployment.
 - Automated CI/CD pipeline using GitHub Actions.
-- Easy to run locally or deploy to a container hosting platform.
+- Easy to run locally or deploy to a container hosting platform. 
+
+## Working Application
+Below is a screenshot of the working application:
+
+![Hangman Homepage](images/hangman_homepage.png)
+
+## Docker Hub Repository
+
+The Docker image for this application is available on Docker Hub:
+- [Docker Hub Repository](https://hub.docker.com/r/nmk43/hangman-app)
 
 
 ## Requirements
@@ -90,9 +99,4 @@ The `Makefile` contains the following commands to simplify Docker operations:
   ```bash
   make container_show
   ```
-
-## Docker Hub Repository
-
-The Docker image for this application is available on Docker Hub:
-- [Docker Hub Repository](https://hub.docker.com/r/<your-docker-username>/<image-name>)
 
