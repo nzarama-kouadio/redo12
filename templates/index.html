@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hangman Game</title>
+</head>
+<body>
+    <h1>Hangman Game</h1>
+    <p>Word: {{ word }}</p>
+    <p>Guessed Letters: {{ guessed }}</p>
+    <p>{{ message }}</p>
+    <form method="post">
+        <label for="guess">Enter a letter:</label>
+        <input type="text" id="guess" name="guess" maxlength="1" required>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
